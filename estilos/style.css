@@ -37,3 +37,8 @@ img.tamanho {
     box-shadow: 3px 3px 3px rgb(0, 0, 0);
     width: 500px;
 }
+
+img.back {
+    width: 30px;
+    height: 30px;
+}
