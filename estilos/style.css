@@ -1,44 +1,97 @@
-* {
- font-family: Arial, Helvetica, sans-serif;
- font-size: 16px;
-
-}
-
+/* Definição de estilos para o corpo da página */
 body {
-    background-color: rgb(173, 171, 171);
-}
-
-main{
-    background-color: white;
-    width: 500px;
-    margin: auto;
-    padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.705);
-}
-
-img.header {
-    width: 500px;
-    height: 200px;
-}
-
-img.lado {
-    float: right;
-    width: 150px;
-    height: 150px;
-}
-
-img.sccp {
-    width: 500px;
-    height: 500px;
-
-}
-
-img.tamanho {
-    box-shadow: 3px 3px 3px rgb(0, 0, 0);
-    width: 500px;
-}
-
-img.back {
-    width: 30px;
-    height: 30px;
-}
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #FFF;
+  }
+  
+  /* Estilos para o cabeçalho da página */
+  header {
+    background-color: #7a1414;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para a imagem do cabeçalho */
+  .header {
+    height: 80px;
+  }
+  
+  /* Estilos para o título principal */
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  /* Estilos para o texto */
+  p {
+    line-height: 1.6;
+    font-size: 1.2rem;
+  }
+  
+  /* Estilos para os links */
+  a {
+    color: #7c3232;
+    text-decoration: none;
+    border-bottom: 2px solid #333;
+    transition: all 0.3s ease;
+  }
+  
+  a:hover {
+    color: #FFF;
+    background-color: #333;
+  }
+  
+  /* Estilos para o conteúdo principal */
+  main {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  /* Estilos para o título secundário */
+  h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+  }
+  
+  /* Estilos para as imagens */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para a imagem à esquerda do texto */
+  .lado {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .back {
+    height: 20px;
+    width: 20px;
+    float: left;
+  }
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  
+  /* Estilos para o link do rodapé */
+  footer a {
+    color: #FFF;
+    border-bottom: none;
+  }
+  
